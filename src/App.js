@@ -15,7 +15,7 @@ const App = () => {
       <About />
       <Experience />
       <Resume />
-      <Portfolio />
+      {/* <Portfolio /> */}
       <Contact />
       {/* <Footer /> */}
     </React.Fragment>

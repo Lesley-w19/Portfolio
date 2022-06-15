@@ -9,7 +9,10 @@ const Portfolio = () =>{
           <h2>Portfolio</h2>  
           <div className="underline"></div>
           </div>
+          
+        <div className="row">
         
+        </div>
 </section>
         </React.Fragment>
     )

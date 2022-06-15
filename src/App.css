@@ -373,8 +373,24 @@ color: var(--primary-pink) !important;
 }
 
 
-
-
+/* contact-info */
+.contact{
+  background-color: var(--light-blue) !important;
+}
+.contact-info{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-pink);
+  color: var(--primary-black);
+}
+.contact-info span{
+  color: var(--light-blue);
+  letter-spacing: 1.5px;
+  text-decoration: underline;
+}
 
 /* ======== media queries */
 @media screen and (max-width: 1024px) {
@@ -434,4 +450,9 @@ color: var(--primary-pink) !important;
     width: 90%;
     margin: auto;
   }
+}
+
+.contact{
+  background-color: var(--primary-black);
+  z-index: 100;
 }

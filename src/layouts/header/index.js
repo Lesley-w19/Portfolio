@@ -34,13 +34,13 @@ const Header = () => {
           >
             <i class="bx bxs-news"></i>
           </a>
-          <a
+          {/* <a
             href="#portfolio"
             onClick={() => setActive("#portfolio")}
             className={active === "#portfolio" ? "active" : ""}
           >
             <i class='bx bx-category-alt'></i>
-          </a>
+          </a> */}
           <a
             href="#contact"
             onClick={() => setActive("#contact")}
